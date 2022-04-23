@@ -29,11 +29,11 @@ These data generators were purposely made to read large files (GBs) so we though
 
 The miscelaneous folder contains all the other functions necessary for filtering,masking and padding. It also contained the different metrics used to test the models. 
 
-## model 
+## Model 
 
 This folder contains the architecture of each of the models tested for reproducibility. In our case, you will find TPC, Transformer and LSTM model inside. 
 
-## trainer
+## Trainer
 
 This folder contains the trainer class wraps all the other classes described above. It pulls the configuration file, dataloader and model and does a train / val/ test type of training. 
 
