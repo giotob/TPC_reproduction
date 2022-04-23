@@ -35,7 +35,7 @@ This folder contains the architecture of each of the models tested for reproduci
 
 ## Trainer
 
-This folder contains the trainer class wraps all the other classes described above. It pulls the configuration file, dataloader and model and does a train / val/ test type of training. 
+This folder contains the trainer class wrapper that calls all the other classes described above. The trianer sets up the training configuration that involves the dataset, hyperparameters and model.
 
 
 
