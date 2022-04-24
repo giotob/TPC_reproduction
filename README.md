@@ -47,6 +47,17 @@ Dataset is a publicly available in the physionet.org, you just need to obtain a 
 # How to Run
 To run any of the models on the either dataset you will need to open **ModelsTestBench** notebook. This notebook contains all the steps in order for you to start your own run and generate performance metrics on the desired model. 
 
-
+### Requirements:
+```
+easydict==1.9
+jupyter==1.0.0
+scikit-learn== 0.24.2
+scipy==1.7.1
+seaborn==0.11.2
+pytorch-lightning==1.6.0
+torch==1.11.0
+numpy==1.20.3
+pandas==1.3.4
+```
 
 
