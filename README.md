@@ -41,7 +41,7 @@ This folder contains the architecture of the TPC, Transformer and LSTM models.
 ## Trainer
 
 This folder contains the trainer class that wraps all the other classes into one in order to read data, load data, train/val/test.
-## dataset
+## Dataset
 Dataset is a publicly available in the physionet.org, you just need to obtain a certification for eICU and MIMIC dataset.
 
 # How to Run
