@@ -1,6 +1,6 @@
 # CSE:6250 Paper Reproduction
 
-This a reproduction of the paper called " Temporal Pointwise Convolutional Networks for Length of Stay
+This a reproduction repository of the paper called " Temporal Pointwise Convolutional Networks for Length of Stay
 Prediction in the Intensive Care Unit"
 
 In this repository you will find the following file structure:
@@ -10,9 +10,6 @@ In this repository you will find the following file structure:
 - model
 - trainer
 
-
-For test running TPC or any other baseline models check ModelTestBench.ipynb 
-This notebook contains a step by step guide on how to run any of the models.
 
 ## Config
 In this folder you will find the best hyperparameters for each model and each dataset as described in the repository : github blah blah
