@@ -19,6 +19,8 @@ In this repository you will find the following file structure:
 |  └── tpc.py
 ├── trainer
 |  └── pl_trainer.py
+├── dataset
+
 ```
 
 ## Config
