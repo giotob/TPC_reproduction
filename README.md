@@ -1,5 +1,5 @@
 # CSE:6250 Paper Reproduction
-## Authorhs: Giovanni Tobar & Ashutosh Joshi
+## Authors: Giovanni Tobar & Ashutosh Joshi
 
 This a reproduction repository of the paper called " Temporal Pointwise Convolutional Networks for Length of Stay
 Prediction in the Intensive Care Unit"
