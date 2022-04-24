@@ -11,7 +11,7 @@ In this repository you will find the following file structure:
 - trainer
 
 
-## config folder
+## Config
 This folder contains both the hyperparameters and configurations necessary for training each model on either eICU or MIMIC data.
 The config files are in json format for human readability and can be easily imported as a dictionary.
 
