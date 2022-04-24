@@ -40,7 +40,8 @@ This folder contains the architecture of the TPC, Transformer and LSTM models.
 
 This folder contains the trainer class that wraps all the other classes into one in order to read data, load data, train/val/test.
 
-
+# How to Run Models
+To run any of the models on the either dataset you will need to open **ModelsTestBench** notebook. This notebook contains all the steps in order for you to start your own run and generate performance metrics on the desired model. 
 
 
 
