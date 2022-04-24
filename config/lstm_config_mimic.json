@@ -1,0 +1,18 @@
+{
+    "data_name": "mimic",
+    "model_name": "lstm",
+    "task": "multi",
+    "alpha": 100,
+    "num_layers":1,
+    "batch_size": 32,
+    "epochs":8,
+    "hidden_size": 128,
+    "lr": 0.00163,
+    "dropout": 0.25,
+    "last_size": 17,
+    "time_before_pred": 5,
+    "input_size": 203,
+    "flat_features": 9,
+    "bidirectional": true,
+    "loss_name": "msle"
+}

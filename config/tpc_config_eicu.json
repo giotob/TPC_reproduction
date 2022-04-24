@@ -1,0 +1,23 @@
+{
+    
+    "data_name": "eicu",
+    "model_name": "tpc",
+    "task": "multi",
+    "alpha": 100,
+    "batch_size": 32,
+    "epochs":15,
+    "num_layers": 9,
+    "kernel_size": 4,
+    "temp_kernels": 12,
+    "point_size": 13,
+    "lr": 0.00226,
+    "temp_drop": 0.05,
+    "last_size": 17,
+    "time_before_pred": 5,
+    "num_features": 87,
+    "add_features": 1,
+    "no_flat_features": 65,
+    "loss_name": "msle"
+
+
+}

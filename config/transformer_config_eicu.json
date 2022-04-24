@@ -1,0 +1,19 @@
+{
+    "data_name": "eicu",
+    "model_name": "transformer",
+    "task": "multi",
+    "alpha": 100,
+    "batch_size": 32,
+    "epochs":12,
+    "num_layers": 6,
+    "dim_feed": 256,
+    "d_model": 16,
+    "num_heads": 2,
+    "lr": 0.00017,
+    "dropout": 0,
+    "last_size": 17,
+    "time_before_pred": 5,
+    "input_size": 175,
+    "flat_features": 65,
+    "loss_name": "msle"
+}

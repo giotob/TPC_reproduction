@@ -1,0 +1,20 @@
+{
+    
+    "data_name": "mimic",
+    "model_name":"transformer",
+    "task": "multi",
+    "alpha": 100,
+    "batch_size": 32,
+    "epochs":12,
+    "num_layers": 2,
+    "dim_feed": 64,
+    "d_model": 32,
+    "num_heads": 1,
+    "lr":  0.00129,
+    "dropout": 0.05,
+    "last_size": 17,
+    "time_before_pred": 5,
+    "input_size": 203,
+    "flat_features": 9,
+    "loss_name": "msle"
+}

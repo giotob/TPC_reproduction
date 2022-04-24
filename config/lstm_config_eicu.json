@@ -1,0 +1,18 @@
+{
+    "data_name": "eicu",
+    "model_name": "lstm",
+    "task": "multi",
+    "alpha": 100,
+    "num_layers":2,
+    "batch_size": 512,
+    "epochs":8,
+    "hidden_size": 128,
+    "lr": 0.00129,
+    "dropout": 0.25,
+    "last_size": 17,
+    "time_before_pred": 5,
+    "input_size": 175,
+    "flat_features": 65,
+    "bidirectional": true,
+    "loss_name": "msle"
+}
