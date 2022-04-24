@@ -4,12 +4,22 @@ This a reproduction repository of the paper called " Temporal Pointwise Convolut
 Prediction in the Intensive Care Unit"
 
 In this repository you will find the following file structure:
-- config
-- dataloader
-- misc
-- model
-- trainer
-
+```
+├── config
+|  └── model_name_config_eicu.py
+|  └── model_name_config_mimic.py
+├── dataloder
+|  └── eicu_reader.py
+|  └── mimic_reader.py
+├── misc
+|  └── utils.py
+├── model
+|  └── lstm.py
+|  └── transformer.py
+|  └── tpc.py
+├── trainer
+|  └── pl_trainer.py
+```
 
 ## Config
 This folder contains both the hyperparameters and configurations necessary for training each model on either eICU or MIMIC data.
