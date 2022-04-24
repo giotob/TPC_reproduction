@@ -11,28 +11,25 @@ In this repository you will find the following file structure:
 - trainer
 
 
-## Config
-In this folder you will find the best hyperparameters for each model and each dataset as described in the repository : github blah blah
-
-The config files are json format and can be easily imported into any python script.
+## config folder
+This folder contains both the hyperparameters and configurations necessary for training each model on either eICU or MIMIC data.
+The config files are in json format for human readability and can be easily imported as a dictionary.
 
 ## Dataloder 
 
-In this folder is where we keep the data reader / generator. These generators were directly taken from the Author's github with minor tweaks done to them. 
-
-These data generators were purposely made to read large files (GBs) so we thought it would be ideal to use them.
-
+This folder contains the data generator. once the data is processed in a train/val/test format the data loader will generate the data from these folders and feed it into the model.
 ## Misc
 
-The miscelaneous folder contains all the other functions necessary for filtering,masking and padding. It also contained the different metrics used to test the models. 
+This folder contains all other functions that are outside of the main folder structure. In in here you will find functions that do filtering, masking and padding. As well as the metrics used for Mortality , LoS and Multitask
 
 ## Model 
 
-This folder contains the architecture of each of the models tested for reproducibility. In our case, you will find TPC, Transformer and LSTM model inside. 
+This folder contains the architecture of the TPC, Transformer and LSTM models. 
 
 ## Trainer
 
-This folder contains the trainer class wrapper that calls all the other classes described above. The trianer sets up the training configuration that involves the dataset, hyperparameters and model.
+This folder contains the trainer class that wraps all the other classes into one in order to read data, load data, train/val/test.
+
 
 
 
